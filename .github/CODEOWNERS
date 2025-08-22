@@ -1,0 +1,36 @@
+# CODEOWNERS file for messaging-backend-491
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-qa @Armor-test/unit-devops @Armor-test/team-governance
+
+# Directory ownership
+/db/ @Armor-test/squad-api @Armor-test/team-research @Armor-test/unit-cloud
+/data/ @Armor-test/grp-integration @Armor-test/squad-reporting
+/tests/ @Armor-test/grp-storage @Armor-test/squad-mobile @Armor-test/grp-payments
+/internal/ @Armor-test/squad-reporting @Armor-test/unit-test @Armor-test/unit-governance
+/web/ @Armor-test/dept-api @Armor-test/dept-billing
+/views/ @Armor-test/team-reporting @Armor-test/grp-search @Armor-test/unit-governance
+/config/ @Armor-test/dept-notifications @Armor-test/unit-cloud
+/assets/ @Armor-test/squad-performance @Armor-test/team-logging @Armor-test/unit-devops
+/shared/ @Armor-test/dept-reliability @Armor-test/squad-payments @Armor-test/squad-database
+/public/ @Armor-test/squad-qa @Armor-test/squad-tooling
+/scripts/ @Armor-test/squad-ml @Armor-test/unit-devops @Armor-test/grp-storage
+
+# File type ownership
+*.tf @Armor-test/squad-qa @Armor-test/unit-design
+*.toml @Armor-test/grp-storage @Armor-test/dept-automation
+*.xml @Armor-test/squad-search @Armor-test/squad-reporting
+*.cs @Armor-test/unit-design @Armor-test/dept-billing @Armor-test/squad-api
+*.json @Armor-test/squad-frontend @Armor-test/team-frontend @Armor-test/squad-search
+*.ini @Armor-test/team-governance @Armor-test/squad-payments
+*.md @Armor-test/dept-test @Armor-test/grp-integration
+*.cpp @Armor-test/squad-tooling @Armor-test/team-governance @Armor-test/team-research
+*.config @Armor-test/squad-qa @Armor-test/grp-storage @Armor-test/dept-ui
+*.c @Armor-test/squad-search @Armor-test/dept-billing
+*.properties @Armor-test/grp-search @Armor-test/squad-database
+*.scala @Armor-test/dept-logging @Armor-test/squad-product
+*.yml @Armor-test/grp-storage @Armor-test/dept-reporting
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
